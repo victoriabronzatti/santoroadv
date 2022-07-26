@@ -15,6 +15,7 @@ p{
 .menu{
     position: fixed;
     z-index: 999;
+    
 }
 
 #home li {
@@ -120,3 +121,59 @@ h1 {
     background: #fff;
     margin: 8px;
 }
+@media (max-width: 1600px) {
+.menu{
+    margin-inline-start: 30%;
+}    
+
+}
+@media (max-width: 1024px) {
+
+
+  }
+  
+  @media (max-width: 990px) {
+
+  }
+  
+  @media (max-width: 960px) {
+  
+  }
+  
+  @media (max-width: 880px) {
+
+  }
+  
+  @media (max-width: 860px) {
+  
+
+  }
+  
+  @media (max-width: 830px) {
+  
+  }
+  
+  @media (max-width: 790px) {
+
+  }
+  
+  @media (max-width: 760px) {
+  
+
+  }
+  
+  @media (max-width: 735px) {
+ 
+  }
+  
+  @media (max-width: 720px) {
+
+  }
+  
+  @media (max-width: 660px) {
+  
+  }
+  
+  @media (max-width: 500px) {
+  
+  }
