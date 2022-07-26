@@ -1,0 +1,23 @@
+h1 {
+    color: #ffff;
+    text-align: center;
+}
+
+::ng-deep.p-component {
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+
+}
+
+p {
+    text-align: justify;
+    font-family: "Amiri", serif;
+}
+
+::ng-deep.p-accordion .p-accordion-header .p-accordion-header-link {
+    padding: 1.25rem;
+    border: 1px solid #85868b;
+    background: #06162D;
+    color: #495057;
+}

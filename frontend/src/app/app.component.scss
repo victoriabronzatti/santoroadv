@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.toolbar {
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: fixed;
+    z-index: 999;
+
+  }
+  .toolbar img {
+    margin: 0 6px;
+  }
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+  }
+  .toolbar #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+//   .toolbar #twitter-logo:hover,
+//   .toolbar #youtube-logo:hover {
+//     opacity: 0.8; 
+//   }
+div, section, span, ul, li, a{
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    margin-right: 100%;
+    margin-left: -0.5%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 35%;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    
+    
+}
+
+
+// @media (max-width: 999px) {
+//     body {
+//         overflow: hidden;
+//     }
+//     .menu{
+//         position: absolute;
+//         top: 8vh;
+//         right: 0;
+//         width: 50vw;
+//         background: #06162D;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: space-around;
+//         transform: translateX(100%);
+//     }
+//     .menu li {
+//         margin-left: 0;
+//         opacity: 0;
+//     }
+//     .mobile-menu{
+//         display: block;
+//     }
+//     .menu.active{
+//         transform: translateX(0);
+//         }
+// }
