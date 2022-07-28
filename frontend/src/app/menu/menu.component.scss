@@ -37,6 +37,7 @@ section {
     height: auto;
     position: relative;
     width: 1900px !important;
+    scroll-behavior: smooth;
 }
 
 #id {
@@ -110,28 +111,49 @@ h1 {
     .menu {
         margin-inline-start: 30%;
     }
-}
-
-@media (max-width: 1200px) {
-    .menu {
-        margin-inline-start: 24%;
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1900px !important;
     }
 }
 
-@media (max-width: 1024px) {
-    .menu {
-        margin-inline: 23%;
-        margin-left: 216px;
-        margin-block: -49px;
-    }
-}
+// @media (max-width: 1200px) {
+//     .menu {
+//         margin-inline-start: 24%;
+//     }
+//     section {
+//         width: 100%;
+//         float: left;
+//         height: auto;
+//         position: relative;
+//         width: 1900px !important;
+//     }
+// }
 
-@media (max-width: 1003px) {
-    .menu {
-        margin-inline: 21%;
-        margin-left: 202px;
-        margin-block: -30px;
-    }
+// @media (max-width: 1024px) {
+//     .menu {
+//         margin-inline: 23%;
+//         margin-left: 216px;
+//         margin-block: -49px;
+//     }
+//     section {
+//         width: 100%;
+//         float: left;
+//         height: auto;
+//         position: relative;
+//         width: 1900px !important;
+//     }
+// }
+
+// @media (max-width: 1003px) {
+//     .menu {
+//         margin-inline: 21%;
+//         margin-left: 202px;
+//         margin-block: -30px;
+//     }
     // #home {
     //     font-size: 20px;
     // }
@@ -147,40 +169,278 @@ h1 {
     // #contato {
     //     font-size: 20px;
     // }
-}
+//}
 
-@media (max-width: 960px) {
-    .menu {
-        margin-inline: 20%;
-        margin-left: 144px;
-        margin-block: -30px;
+@media (max-width: 1900px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1900px !important;
     }
 }
-
-@media (max-width: 880px) {
-    .menu {
-        margin-inline: 19%;
-        margin-left: 123px;
-        margin-block: -30px;
+@media (max-width: 1850px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1850px !important;
     }
 }
-
-@media (max-width: 840px) {
-    .menu {
-        margin-inline: 18%;
-        margin-left: 105px;
-        margin-block: -30px;
+@media (max-width: 1800px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1800px !important;
     }
 }
+@media (max-width: 1750px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1750px !important;
+    }
+}
+@media (max-width: 1700px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1700px !important;
+    }
+}
+@media (max-width: 1650px) {
 
-@media (max-width: 790px) {}
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1650px !important;
+    }
+}
+@media (max-width: 1600px) {
 
-@media (max-width: 760px) {}
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1600px !important;
+    }
+}
+@media (max-width: 1550px) {
 
-@media (max-width: 735px) {}
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1550px !important;
+    }
+}
+@media (max-width: 1500px) {
 
-@media (max-width: 720px) {}
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1500px !important;
+    }
+}
+@media (max-width: 1450px) {
 
-@media (max-width: 660px) {}
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1450px !important;
+    }
+}
+@media (max-width: 1400px) {
 
-@media (max-width: 500px) {}
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1400px !important;
+    }
+}
+@media (max-width: 1300px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1300px !important;
+    }
+}
+@media (max-width: 1250px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1250px !important;
+    }
+}
+@media (max-width: 1200px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1200px !important;
+    }
+}
+@media (max-width: 1150px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1150px !important;
+    }
+}
+@media (max-width: 1100px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1100px !important;
+    }
+}
+@media (max-width: 1050px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1050px !important;
+    }
+}
+@media (max-width: 1000px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 1000px !important;
+    }
+}
+@media (max-width: 950px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 950px !important;
+    }
+}
+@media (max-width: 900px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 900px !important;
+    }
+}
+@media (max-width: 850px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 850px !important;
+    }
+}
+@media (max-width: 800px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 800px !important;
+    }
+}
+@media (max-width: 750px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 750px !important;
+    }
+}
+@media (max-width: 700px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 700px !important;
+    }
+}
+@media (max-width: 650px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 650px !important;
+    }
+}
+@media (max-width: 600px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 600px !important;
+    }
+}
+@media (max-width: 550px) {
+
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 550px !important;
+    }
+}
+@media (max-width: 500px) {
+    section {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: relative;
+        width: 500px !important;
+    }
+}
