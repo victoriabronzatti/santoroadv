@@ -1,44 +1,6 @@
 <h1>Sócios</h1>
-<p-accordion>
-  <p-accordionTab header="Luiz Felipe Guimarães Santoro" [selected]="true">
-    <p>Advogado formado pela Faculdade de Direito da Universidade de São Paulo (USP - 1997), especializado em
-      Administração para Profissionais do Esporte pela Fundação Getulio Vargas (FGV/SP - 2003), MBA em Football
-      Industries pela Universidade de Liverpool (Inglaterra - 2005) e FIFA Diploma in Football Law – 1ª Edição (2021).
-      Fundador (2001) e Presidente (2007-2009 e 2010-2012) do Instituto Brasileiro de Direito Desportivo. Desde 2012
-      apontado anualmente pela publicação britânica Chambers & Partners como um dos melhores advogados esportivos do
-      Brasil (Sports Law – Band 1). Membro da Academia Nacional de Direito Desportivo, da Sociedade Brasileira de
-      Estudos do Direito Desportivo e da Comissão de Juristas Indicados para a Reformulação da Legislação Desportiva
-      Brasileira no Senado Federal. Patrono do Grupo de Estudos de Direito Desportivo – Faculdade de Direito da
-      Universidade de São Paulo (GEDD-USP). Diretor Jurídico da CBF - Confederação Brasileira de Futebol (2019-2022).
-      Membro do CNE - Conselho Nacional do Esporte (2020-2022). Professor de cursos de graduação e pós-graduação,
-      palestrante em congressos nacionais e internacionais com livros e artigos publicados no Brasil e no exterior, com
-      destaque para “Direito do Futebol – marcos jurídicos e linhas mestras”, Ed. Quartier Latin (2019), em co-autoria
-      com o Professor Álvaro Melo Filho.
-      Idiomas: Português, Inglês e Espanhol,</p>
-  </p-accordionTab>
-  <p-accordionTab header="Larissa Caropreso Herrera">
-    <p>Advogada. Graduada pela Universidade Presbiteriana Mackenzie (2008), com
-      especialização em Direito de Família e Sucessões pela Escola Superior de Advocacia
-      da Ordem dos Advogados do Brasil, Seção São Paulo. Membro efetivo do Instituto
-      Brasileiro de Direito de Família (IBDFAM). Mais de 14 anos de experiência em
-      contencioso de família e sucessões nos mais importantes escritórios de advocacia
-      especializados em direito de família do Brasil, atuando também em outras questões
-      cíveis.
-      Idiomas: Português e Inglês.</p>
-  </p-accordionTab>
-  <p-accordionTab header="Andreza Andries ">
-    <p>Advogada formada pela Faculdade de Direito da Universidade de São Paulo (USP - 2003), com habilitação na área de
-      Direito Privado e Processo Civil.
-      Pós graduada em Direito Tributário e Processual Tributário pela Escola Paulista de Direito (EPD - 2013).
-      Atua na área de direito civil, em litígios de natureza empresarial, societária, contratual, cível e consumerista.
-      Idiomas: Português e Inglês.</p>
-  </p-accordionTab>
-  <p-accordionTab header="Ricardo Issao Kaneshiro">
-    <p>Advogado formado pela Universidade Nove de Julho (Uninove - 2019)
-
-      Pós-graduando em Direito Desportivo pela Escola Superior de Advocacia e Instituto
-      Brasileiro de Direito Desportivo (ESA - IBDD -2022).
-      Atua na área de direito civil e desportivo.
-      Idioma: Português</p>
-  </p-accordionTab>
+<p-accordion *ngFor="let socio of sociosOrdem ">
+    <p-accordionTab header="{{socio.nome}}">
+        <p> {{socio.curriculoPtbr}} </p>
+    </p-accordionTab>
 </p-accordion>

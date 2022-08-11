@@ -18,6 +18,8 @@ import {AccordionModule} from 'primeng/accordion';
 import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [	
     AppComponent,
@@ -29,6 +31,7 @@ import { ToastModule } from 'primeng/toast';
     ContatoComponent
    ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     BrowserAnimationsModule,
     MessageModule,
