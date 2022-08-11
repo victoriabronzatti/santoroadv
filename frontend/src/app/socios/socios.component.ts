@@ -18,14 +18,6 @@ export class SociosComponent implements OnInit {
   }
 
   async ngOnInit() {
-    await this.testeFunction();
-  }
-
-  button(): void {
-    console.log(this.socios);
-  }
-
-  async testeFunction(): Promise<void> {
     await this.socioService.getSocios().subscribe({
       next: async (resp: Socio[]) => (this.socios = resp),
       error: (error) => console.error(error),
@@ -36,5 +28,6 @@ export class SociosComponent implements OnInit {
         this.sociosOrdem.push(this.socios.filter((adv) => adv.nome == 'Ricardo Issao Kaneshiro' )[0]);          
       },
     });
+    //
   }
 }
