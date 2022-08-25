@@ -7,6 +7,7 @@ import { environment } from 'src/environments/environment';
 @Injectable({
   providedIn: 'root'
 })
+
 export class SociosService {
   private url = "advogados";
 
@@ -15,6 +16,4 @@ export class SociosService {
   public getSocios() : Observable<Socio[]>{
   return this.http.get<Socio[]>(`${environment.apiUrl}/${this.url}`);
   }
-
-
 }

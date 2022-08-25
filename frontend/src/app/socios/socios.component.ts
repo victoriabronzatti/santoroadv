@@ -28,6 +28,5 @@ export class SociosComponent implements OnInit {
         this.sociosOrdem.push(this.socios.filter((adv) => adv.nome == 'Ricardo Issao Kaneshiro' )[0]);          
       },
     });
-    //
   }
 }

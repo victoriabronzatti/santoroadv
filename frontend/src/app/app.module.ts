@@ -19,6 +19,8 @@ import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
 
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [	
@@ -28,9 +30,11 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     SobreComponent,
     SociosComponent,
-    ContatoComponent
+    ContatoComponent,
+    LoginComponent
    ],
   imports: [
+    FormsModule,
     HttpClientModule,
     BrowserModule,
     BrowserAnimationsModule,
@@ -41,7 +45,7 @@ import { HttpClientModule } from '@angular/common/http';
     ToastModule,
     RouterModule.forRoot([
 				{path:'',component: AppComponent},
-    ])
+    ]),
   ],
   providers: [AppComponent],
   bootstrap: [AppComponent]
