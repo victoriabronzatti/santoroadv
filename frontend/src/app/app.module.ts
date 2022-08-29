@@ -11,6 +11,8 @@ import { HomeComponent } from '../app/home/home.component';
 import { SobreComponent } from '../app/sobre/sobre.component';
 import { SociosComponent } from '../app/socios/socios.component';
 import { ContatoComponent } from './contato/contato.component';
+import { LoginComponent } from './login/login.component';
+import { UpdateSociosComponent } from './socios/editarSocios/update-socios/update-socios.component';
 
 import { MessageModule } from 'primeng/message';
 import { TabMenuModule } from 'primeng/tabmenu';
@@ -19,8 +21,9 @@ import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
 
 import { HttpClientModule } from '@angular/common/http';
-import { LoginComponent } from './login/login.component';
+
 import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [	
@@ -31,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     SobreComponent,
     SociosComponent,
     ContatoComponent,
-    LoginComponent
+    LoginComponent,
+    UpdateSociosComponent
    ],
   imports: [
     FormsModule,

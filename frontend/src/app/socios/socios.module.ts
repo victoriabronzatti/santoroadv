@@ -6,6 +6,8 @@ import {AccordionModule} from 'primeng/accordion';
     CommonModule,
     AccordionModule
   ],
-  declarations: []
+  declarations: [
+
+  ]
 })
 export class SociosModule { }

@@ -5,15 +5,18 @@ import { Socio } from '../models/socio';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class SociosService {
-  private url = "advogados";
+  private url = 'advogados';
 
-  constructor(private http : HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  public getSocios() : Observable<Socio[]>{
-  return this.http.get<Socio[]>(`${environment.apiUrl}/${this.url}`);
+  public getSocios(): Observable<Socio[]> {
+    return this.http.get<Socio[]>(`${environment.apiUrl}/${this.url}`);
+  }
+
+  public async updateSocio(socio: Socio): Promise<void> {
+    await this.http.put<Socio>(`${environment.apiUrl}/${this.url}`, socio);
   }
 }
