@@ -1,24 +1,21 @@
 <div class="form-update-socio">
-    <form>
+    <form *ngIf="socio" >
         <div >
-            <label style="color: white;"></label>
-            <input type="text" placeholder="nome">
+            <label>Nome</label>
+            <input [(ngModel)]="socio.nome" placeholder="Nome" />
+        </div>
+
+        <div  >
+            <label >Curriculo Pt-BR</label>
+            <textarea [(ngModel)]="socio.curriculoPtbr" placeholder="" > </textarea>
         </div>
         <div  >
-            <label style="color: white;"></label>
-            <input type="text" placeholder="Email">
-        </div>
-        <div  >
-            <label style="color: white;"></label>
-            <textarea placeholder="Curriculo ES "></textarea>
-        </div>
-        <div  >
-            <label style="color: white;"></label>
-            <textarea placeholder="Curriculo ES "></textarea>
+            <label >Curriculo En</label>
+            <textarea [(ngModel)]="socio.curriculoEn" placeholder=""> </textarea>
         </div>
         <div style="flex-direction:row ;">
-            <label style="color: white;">Curriculo Es</label>
-            <textarea placeholder="Curriculo ES "></textarea>
+            <label >Curriculo Es</label>
+            <textarea [(ngModel)]="socio.curriculoEs" placeholder=""> </textarea>
         </div>
         <button (click)="updateSocio(socio)">Salvar</button>
 

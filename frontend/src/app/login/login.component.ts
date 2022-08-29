@@ -22,7 +22,6 @@ export class LoginComponent implements OnInit {
     this.LoginService.login(user).subscribe({
       next: (resp: boolean) => {
         this.logged == resp;
-        console.log(resp);
         console.log(resp ? 'Login...' : 'Credenciais Incorretas' );
       },
       error: (error) => console.error(error),

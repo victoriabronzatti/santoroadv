@@ -1,7 +1,11 @@
 * {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(7, 7, 70);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .form-update-socio{
@@ -10,4 +14,11 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: rgb(7, 7, 70);
+
 }
+
+label{
+    color:white;
+}
+

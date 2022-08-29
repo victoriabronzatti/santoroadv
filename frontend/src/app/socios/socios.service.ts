@@ -19,4 +19,9 @@ export class SociosService {
   public async updateSocio(socio: Socio): Promise<void> {
     await this.http.put<Socio>(`${environment.apiUrl}/${this.url}`, socio);
   }
+
+  public async getById(id:number) : Promise<Observable<Socio>> {
+    return await this.http.get<Socio>(`${environment.apiUrl}/${this.url}/${id}`);
+    
+  }
 }

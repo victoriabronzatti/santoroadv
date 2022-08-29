@@ -1,4 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { async } from '@angular/core/testing';
+import { RouterLink } from '@angular/router';
+import { Observable } from 'rxjs';
 import { Socio } from 'src/app/models/socio';
 import { SociosService } from '../../socios.service';
 
@@ -12,7 +15,9 @@ export class UpdateSociosComponent implements OnInit {
 
   constructor(private sociosService : SociosService) { }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    await this.getById(1);
+
   }
   
   async updateSocio(socio:Socio){
@@ -20,5 +25,17 @@ export class UpdateSociosComponent implements OnInit {
       
     };
 
+    async getById(id :number) {
+       await (await this.sociosService.getById(id)).subscribe({
+        next: async (resp: Socio) => (this.socio = resp),
+        error: (error) => console.error(error),
+        complete: () => {
+          console.log(this.socio); 
+        },
+       });
+    }
+
+
+    
 
 }
