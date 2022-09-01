@@ -17,7 +17,6 @@ export class UpdateSociosComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     await this.getById(1);
-
   }
   
   async updateSocio(socio:Socio){
