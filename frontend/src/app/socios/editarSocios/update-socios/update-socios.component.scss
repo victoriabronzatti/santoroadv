@@ -1,24 +1,75 @@
 * {
-    margin: 5px;
-    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    background-color: rgb(7, 7, 70);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .form-update-socio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #020c1a; //#06162D 
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.form-update-socio-card{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    text-align: center;
-    background-color: rgb(7, 7, 70);
-
+    padding: 30px 35px;
+    background: #06162D; // #020c1a
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056; // eixo X, deslocamento Vertical, Blur, Cor
+    box-sizing: border-box;
 }
 
-label{
-    color:white;
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
 }
+
+.text-field > label{
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.text-field > input ::placeholder{
+    color: black;
+}
+
+.text-field > textarea, input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background:  lightgrey;
+    color:black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+}
+
+.btn-salvar{
+    width: 100%; // ajustar 
+    padding: 16px 0px;
+    margin:25px ;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #06162D;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+
 
