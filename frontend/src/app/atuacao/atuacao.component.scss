@@ -2,18 +2,37 @@ h1 {
     color: #ffff;
     text-align: center;
 }
-p{
-    color: #b9aeae;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 42%;
+p {
+    text-align: justify;
     font-family: "Amiri", serif;
 }
 
-img{
-    width: 21%;
-    height: auto;
-    margin-top: -6%;
-    margin-left: 64%;
-    border-radius: 9%;
+::ng-deep.p-accordion .p-accordion-header .p-accordion-header-link {
+    padding: 1.25rem;
+    border: 1px solid #85868b;
+    background: #06162D;
+    color: #c5c4c4;
 }
+
+// img{
+//     width: 21%;
+//     height: auto;
+//     margin-left: 64%;
+//     border-radius: 9%;
+// }
+
+// .atuacao{
+//     width: 68%;
+
+
+    
+//     p{
+//         text-align: justify;
+//         margin-left: 0px;
+//         margin-right: 0px;
+//     }
+
+//}
+// .text{
+//     margin-block-start: -244px;
+// }

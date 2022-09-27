@@ -7,3 +7,9 @@ body{
 html {
     scroll-behavior: smooth;
 }
+
+@media(max-width: 768px) {
+    *{
+        padding: 20px 0;
+    }
+}
