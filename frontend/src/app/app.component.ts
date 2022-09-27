@@ -11,7 +11,7 @@ import {MessageService} from 'primeng/api';
   
 })
 export class AppComponent {
-  title = 'santoroadv';
+  title = 'ALVES, SOUZA E CASTRO';
   activeState: boolean[] = [true, false, false];
 
   constructor(
