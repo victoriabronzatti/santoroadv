@@ -1,0 +1,28 @@
+<div class="form-update-socio">
+    <form *ngIf="socio" >
+        <div class="form-update-socio-card">
+            <div class="text-field">
+                <label>Nome</label>
+                <input [(ngModel)]="socio.nome" placeholder="" />
+            </div>
+            
+            <div class="text-field">
+                <label >Curriculo Pt-BR</label>
+                <textarea [(ngModel)]="socio.curriculoPtbr" placeholder="" rows="7" maxlength="2000"> </textarea>
+            </div>
+
+            <div class="text-field">
+                <label >Curriculo En</label>
+                <textarea [(ngModel)]="socio.curriculoEn" placeholder="" rows="7" maxlength="2000"> </textarea>
+            </div>
+
+            <div class="text-field">
+                <label >Curriculo Es</label>
+                <textarea [(ngModel)]="socio.curriculoEs" placeholder="" rows="7" maxlength="2000"> </textarea>
+            </div>
+
+            <button class="btn-salvar" (click)="updateSocio(socio)">Salvar</button>
+
+        </div>
+    </form>
+</div>

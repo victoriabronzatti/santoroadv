@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-login {
+    width: 100vw;
+    height: 70vh;
+    background-color: #020c1a; //#06162D 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #06162D; // #020c1a
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056; // eixo X, deslocamento Vertical, Blur, Cor
+}
+
+.card-login > h1 {
+    color: lightgray;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-field > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background:  lightgrey;
+    color:black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.text-field > label{
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.text-field > input ::placeholder{
+    color: black;
+}
+
+.btn-login{
+    width: 100%; // ajustar 
+    padding: 16px 0px;
+    margin:25px ;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #06162D;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 33%;
+    }
+}

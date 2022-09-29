@@ -9,6 +9,6 @@ import {AccordionModule} from 'primeng/accordion';
     CommonModule,
     AccordionModule
   ],
-  declarations: [MenuComponent]
+  declarations: []
 })
 export class MenuModule { }

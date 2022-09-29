@@ -1,17 +1,66 @@
 h1 {
-    color: #ffff;
+    color: #dfbfa1;;
     text-align: center;
 }
 p {
     text-align: justify;
     font-family: "Amiri", serif;
 }
+img{
+    width: 59vh;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 14.2%;
+    border-radius: 9%;
+}
+.container{
+    margin-top: 9%
+}
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
 
 ::ng-deep.p-accordion .p-accordion-header .p-accordion-header-link {
     padding: 1.25rem;
     border: 1px solid #85868b;
     background: #06162D;
-    color: #c5c4c4;
+    color: #dfbfa1;
+}
+
+.medico{
+    background: transparent;
+    color: #dfbfa1;
+    border: 1px solid #dfbfa1;
+    border-radius: 6px;
+    margin-left: 48.2%;
+    width: 9%;
+    padding-inline: 1%;
+    padding-top: 1%;
+    padding-block: 1%;
+    margin-top: 4%;
+
+    a{
+        text-decoration: none;
+        color: #dfbfa1;
+    }
+}
+
+.saude{
+    background: transparent;
+    color: #dfbfa1;
+    border: 1px solid #dfbfa1;
+    border-radius: 6px;
+    margin-left: 48.2%;
+    width: 9%;
+    padding-inline: 1%;
+    padding-top: 1%;
+    padding-block: 1%;
+    margin-top: -17%;
+
+    a{
+        text-decoration: none;
+        color: #dfbfa1;
+    }
 }
 
 // img{
